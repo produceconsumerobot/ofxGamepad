@@ -19,3 +19,5 @@ On line 77 of ofxGamepadHandler.cpp , you will find something like this:
 HWND windowHandle = FindWindow(NULL, L"gamepadExampleApp");  
 
 You can use any name as a title, just make sure you use the same name in both files.
+
+OIS source can be obtained here to generate static libs https://github.com/wgois/OIS
