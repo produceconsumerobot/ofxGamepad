@@ -21,3 +21,6 @@ HWND windowHandle = FindWindow(NULL, L"gamepadExampleApp");
 You can use any name as a title, just make sure you use the same name in both files.
 
 OIS source can be obtained here to generate static libs https://github.com/wgois/OIS
+On Raspberry PI install the following before running ./bootstrap
+sudo apt-get install libtool
+sudo apt-get install automake

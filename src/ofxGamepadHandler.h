@@ -4,6 +4,9 @@
 #include "ofMain.h"
 #include "ofxGamepad.h"
 
+#define USE_OIS
+//#define TARGET_LINUX
+
 #if defined(TARGET_OSX) || defined(TARGET_OS_WIN32) || defined(_WIN32)
 #define USE_OIS
 #endif
