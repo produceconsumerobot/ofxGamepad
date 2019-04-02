@@ -24,3 +24,4 @@ OIS source can be obtained here to generate static libs https://github.com/wgois
 On Raspberry PI install the following before running ./bootstrap
 sudo apt-get install libtool
 sudo apt-get install automake
+
